@@ -1,0 +1,32 @@
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    gap: 20px;
+  }
+  
+  .categoria {
+    width: 45%;
+    background-color: #f0f8f0;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .categoria h2 {
+    margin-top: 0;
+    color: #2e7d32;
+  }
+  
+  .papel { border-left: 5px solid #a1887f; }
+  .vidro { border-left: 5px solid #81c784; }
+  .plastico { border-left: 5px solid #64b5f6; }
+  .metal { border-left: 5px solid #fdd835; }
+  
+  @media screen and (max-width: 768px) {
+    .categoria {
+      width: 100%;
+    }
+  }
+  

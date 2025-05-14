@@ -1,0 +1,41 @@
+.dicas-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .dica {
+    background-color: #e3f2fd;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    transition: transform 0.3s;
+  }
+  
+  .dica:hover {
+    transform: scale(1.05);
+  }
+  
+  .curiosidades-container {
+    background-color: #f1f8e9;
+    padding: 30px;
+    margin: 0 40px 40px 40px;
+    border-radius: 10px;
+  }
+  
+  .curiosidades-container ul {
+    list-style: disc inside;
+  }
+  
+  @media (max-width: 768px) {
+    .dica {
+      width: 100%;
+    }
+  
+    .curiosidades-container {
+      margin: 20px;
+    }
+  }
+  
